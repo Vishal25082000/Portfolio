@@ -25,9 +25,15 @@ const Contact = () => {
           </button>
         </form>
         <div className="links">
-          <img src={github} alt="Github" className="link" />
-          <img src={facebook} alt="Facebook" className="link" />
-          <img src={linkdine} alt="linkdine" className="link" />
+         <a href="https://github.com/Vishal25082000">
+            <img src={github} alt="Github" className="link" />
+          </a>
+          <a href="https://www.facebook.com/profile.php?id=100046044279827&mibextid=ZbWKwL">
+            <img src={facebook} alt="Facebook" className="link" />
+          </a>
+          <a href="https://www.linkedin.com/in/vishal-kumar-8a17b01b3">
+            <img src={linkdine} alt="linkdine" className="link" />
+          </a>
         </div>
       </div>
     </section>
